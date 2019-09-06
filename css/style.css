@@ -1,7 +1,21 @@
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+
 h1 {
   font-family: Helvetica;
   font-size: 4rem;
   font-weight: lighter;
+
+}
+h1.white {
+  color: white;
 }
 
 h2 {
@@ -14,7 +28,23 @@ p {
   font-family: sans-serif;
 }
 
+p.small {
+  font-size: .80rem;
+}
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+
+body {
+  background-color: #5cffc0;
+}
 
 .main
 {
