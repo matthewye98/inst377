@@ -1,4 +1,22 @@
 h1 {
   font-family: Helvetica;
-  font-size: 5rem;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 2rem
+}
+
+p {
+  font-family: sans-serif;
+}
+
+
+
+.main
+{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
