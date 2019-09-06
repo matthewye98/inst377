@@ -1,11 +1,13 @@
 h1 {
   font-family: Helvetica;
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: lighter;
 }
 
 h2 {
   font-family: monospace;
-  font-size: 2rem
+  font-size: 2rem;
+  color: black;
 }
 
 p {
@@ -19,4 +21,8 @@ p {
 	text-align: center;
 	padding-top: 5%;
 	padding-bottom: 5%;
+}
+
+.mint {
+  background-color: #8bf0bf !important;
 }
