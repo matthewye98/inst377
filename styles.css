@@ -56,3 +56,17 @@ body {
 .mint {
   background-color: #8bf0bf !important;
 }
+
+
+img.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+img.img-small {
+  width: 10rem;
+}
+
+.circle {
+  border-radius: 50%;
+}
