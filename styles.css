@@ -9,9 +9,10 @@
 body {
   background-color: #7A3B69;
   display: flex;
+  margin-bottom: 75px;
 }
 
-.row:after {
+/*.row:after {
   content: "";
   display: table;
   clear: both;
@@ -22,6 +23,7 @@ body {
   width: 33.33%;
   padding: 10px;
 }
+*/
 
 div.main {
   justify-content: center;
@@ -33,9 +35,7 @@ div.main {
 
 div.experience{
   color: #e0e0e0;
-  /*column-count: 3;
-  column-gap: 40px;
-  column-rule: 1px solid #9E869A;*/
+
 }
 
 
@@ -101,16 +101,15 @@ img.responsive-img {
   height: auto;
 }
 
-img.img-small {
-  width: 10rem;
+.circle {
+  border-radius: 50%;
   border: solid 2px #9E869A;
 
 }
 
-.circle {
-  border-radius: 50%;
+#picofme {
+  width: 10rem;
 }
-
 
 /*
 footer {
